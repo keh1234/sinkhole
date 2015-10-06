@@ -1,0 +1,1199 @@
+﻿[2015.10.06-06.18.44:930][  0]Log file open, 10/06/15 15:18:44
+[2015.10.06-06.18.44:930][  0]LogInit:Display: Running engine for game: sinkhole
+[2015.10.06-06.18.44:930][  0]LogInit:Display: RandInit(-1444317849) SRandInit(-1444317849).
+[2015.10.06-06.18.44:930][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.06-06.18.44:930][  0]LogStats: Stats thread started at 0.094680
+[2015.10.06-06.18.44:930][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.06-06.18.44:930][  0]LogInit: API Version: 2672455
+[2015.10.06-06.18.44:930][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.06-06.18.44:930][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.06-06.18.44:930][  0]LogInit: Build Configuration: Development
+[2015.10.06-06.18.44:930][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.06-06.18.44:930][  0]LogInit: Command line: 
+[2015.10.06-06.18.44:930][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.06-06.18.44:930][  0]LogInit: Rocket: 1
+[2015.10.06-06.18.44:939][  0]LogInit: Using libcurl 7.41.0
+[2015.10.06-06.18.44:939][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.06-06.18.44:939][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.06-06.18.44:939][  0]LogInit:  - other features:
+[2015.10.06-06.18.44:939][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.06-06.18.44:939][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.06-06.18.44:939][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.06-06.18.44:939][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.06-06.18.44:939][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.06-06.18.44:939][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.06-06.18.44:939][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.06-06.18.44:939][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.06-06.18.44:939][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.06-06.18.44:939][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.06-06.18.44:948][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.06-06.18.44:956][  0]LogInit: Object subsystem initialized
+[2015.10.06-06.18.44:959][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.06-06.18.44:959][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.06-06.18.44:970][  0]LogInit: Computer: 귤맘
+[2015.10.06-06.18.44:970][  0]LogInit: User: 귤
+[2015.10.06-06.18.44:970][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.06-06.18.44:970][  0]LogInit: High frequency timer resolution =2.922937 MHz
+[2015.10.06-06.18.44:970][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.06-06.18.44:970][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.06-06.18.44:970][  0]LogMemory: Process Physical Memory: 51.66 MB used, 51.66 MB peak
+[2015.10.06-06.18.44:970][  0]LogMemory: Process Virtual Memory: 57.03 MB used, 57.03 MB peak
+[2015.10.06-06.18.44:970][  0]LogMemory: Physical Memory: 3962.27 MB used, 8111.70 MB total
+[2015.10.06-06.18.44:970][  0]LogMemory: Virtual Memory: 348.56 MB used, 134217728.00 MB total
+[2015.10.06-06.18.45:005][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2015.10.06-06.18.45:067][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2015.10.06-06.18.45:068][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2015.10.06-06.18.45:068][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2015.10.06-06.18.45:325][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 625 (OEM) (Feature Level 11_0)
+[2015.10.06-06.18.45:325][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2015.10.06-06.18.45:331][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics (Feature Level 11_0)
+[2015.10.06-06.18.45:331][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.10.06-06.18.45:332][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.06-06.18.45:332][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.10.06-06.18.45:332][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.06-06.18.45:337][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.06-06.18.45:337][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2015.10.06-06.18.45:343][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.06-06.18.45:354][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Intermediate/Shaders/WorkingDirectory/6272/).
+[2015.10.06-06.18.45:354][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Intermediate/Shaders/tmp/9A1D35084DB1F256C41BA89B0E95F6E7/'.
+[2015.10.06-06.18.45:354][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.06-06.18.46:689][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.06-06.18.46:697][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.06-06.18.46:703][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.06-06.18.46:710][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.06-06.18.46:717][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.06-06.18.46:721][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.06-06.18.46:726][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.06-06.18.46:730][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.06-06.18.46:734][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.06-06.18.46:739][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.06-06.18.46:744][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.06-06.18.46:748][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.06-06.18.46:749][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.06-06.18.46:769][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.06-06.18.46:772][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.06-06.18.46:776][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.06-06.18.46:780][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.06-06.18.46:780][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.06-06.18.46:867][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.06-06.18.48:652][  0]LogDerivedDataCache: Loaded boot cache 1.78s 41MB C:/Users/귤/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.06-06.18.48:652][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/귤/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.06-06.18.48:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.06-06.18.48:652][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.06-06.18.48:653][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.06-06.18.48:653][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.06-06.18.48:811][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.06-06.18.48:823][  0]LogDerivedDataCache: Using Local data cache path C:/Users/귤/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.06-06.18.49:022][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.06-06.18.49:024][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.06-06.18.49:151][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.06-06.18.49:151][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.06-06.18.49:766][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.06-06.19.16:647][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.06-06.19.17:184][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.10.06-06.19.17:373][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.10.06-06.19.17:408][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.10.06-06.19.17:418][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.10.06-06.19.17:427][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.10.06-06.19.17:997][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.06-06.19.18:070][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.06-06.19.18:070][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.06-06.19.18:208][  0]LogEngine: Initializing Engine...
+[2015.10.06-06.19.18:210][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.06-06.19.18:210][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.06-06.19.18:347][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.06-06.19.18:350][  0]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-06.19.18:359][  0]LogInit: FAudioDevice initialized.
+[2015.10.06-06.19.18:388][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/귤/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.06-06.19.18:399][  0]LogInit: Texture streaming: Enabled
+[2015.10.06-06.19.18:406][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.06-06.19.18:406][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.06-06.19.18:406][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d36a286d4a6f6c584e622896a348fd16|ec8005ed97f24ee4b5ae2bc5abfe5161|d113c73c-e2cf-441c-b1fa-2fd8def9c949
+[2015.10.06-06.19.18:406][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.06-06.19.18:421][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2015.10.06-06.19.18:437][  0]LogInit: Transaction tracking system initialized
+[2015.10.06-06.19.18:471][  0]BlueprintLog: New page: 에디터 로드
+[2015.10.06-06.19.21:665][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2015.10.06-06.19.22:269][  0]LogConsoleResponse:Display: 
+[2015.10.06-06.19.22:537][  0]LogFileCache: Scanning file cache for directory 'C:/Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/' took 0.01s
+[2015.10.06-06.19.22:537][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.06-06.19.23:058][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.10.06-06.19.23:058][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.06-06.19.23:059][  0]LightingResults: New page: 라이팅 빌드
+[2015.10.06-06.19.23:062][  0]MapCheck: New page: 맵 체크
+[2015.10.06-06.19.23:062][  0]LightingResults: New page: 라이팅 빌드
+[2015.10.06-06.19.23:079][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005AC7FFA3E0
+[2015.10.06-06.19.23:725][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.10.06-06.19.23:730][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.06-06.19.23:753][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.06-06.19.23:792][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 39.102ms.
+[2015.10.06-06.19.23:792][  0]LogFileHelpers: Loading map 'Template_Default' took 0.733
+[2015.10.06-06.19.27:360][  0]LogCollectionManager: Loaded 0 collections in 0.015207 seconds
+[2015.10.06-06.19.27:628][  0]LogFileCache: Scanning file cache for directory 'C:/Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Collections/' took 0.01s
+[2015.10.06-06.19.27:628][  0]LogFileCache: Scanning file cache for directory 'C:/Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/Developers/귤/Collections/' took 0.01s
+[2015.10.06-06.19.27:628][  0]LogFileCache: Scanning file cache for directory 'C:/Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/Collections/' took 0.01s
+[2015.10.06-06.19.27:628][  0]LogContentBrowser: Native class hierarchy populated in 0.0334 seconds. Added 1867 classes and 333 folders.
+[2015.10.06-06.19.27:772][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2015.10.06-06.19.28:019][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2015.10.06-06.19.30:501][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2015.10.06-06.19.30:765][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2015.10.06-06.19.32:647][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.06-06.19.33:648][  0]LogLoad: Full Startup: 49.31 seconds (BP compile: 0.24 seconds)
+[2015.10.06-06.19.35:157][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.06-06.19.37:284][  0]LogRenderer: Reallocating scene render targets to support 804x540 (Frame:2).
+[2015.10.06-06.19.40:489][ 11]LogAssetRegistry: Asset discovery search completed in 23.3171 seconds
+[2015.10.06-06.19.40:489][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.06-06.19.40:489][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2015.10.06-06.20.52:664][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.06-06.20.52:892][877]LogSavePackage: Save=93.351311ms
+[2015.10.06-06.20.52:892][877]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/LV_MainEA0295464475C548320F1FAD99301792.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap'
+[2015.10.06-06.20.52:921][877]LogSavePackage: Total save time: 122.428913ms
+[2015.10.06-06.20.52:921][877]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap
+[2015.10.06-06.20.52:938][877]LogFileHelpers: Saving map 'LV_Main' took 0.359
+[2015.10.06-06.20.58:345][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/Main" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/LV/Main.uasset" SILENT=true
+[2015.10.06-06.20.58:420][898]LogSavePackage: Save=8.124021ms
+[2015.10.06-06.20.58:420][898]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Main6F7B12F84B02C93458A42CADECCB975D.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/LV/Main.uasset'
+[2015.10.06-06.20.58:425][898]LogSavePackage: Total save time: 13.711553ms
+[2015.10.06-06.20.58:425][898]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/LV/Main.uasset
+[2015.10.06-06.20.58:488][898]Cmd: MAP LOAD FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.06-06.20.58:489][898]LightingResults: New page: 라이팅 빌드
+[2015.10.06-06.20.58:529][898]LoadErrors: New page: 맵 로드중: LV_Main.umap
+[2015.10.06-06.20.58:529][898]MapCheck: New page: 맵 체크
+[2015.10.06-06.20.58:529][898]LightingResults: New page: 라이팅 빌드
+[2015.10.06-06.20.58:576][898]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005AB9B73380
+[2015.10.06-06.20.58:618][898]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.06-06.20.58:618][898]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-06.20.58:654][898]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.06-06.20.58:699][898]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 45.609ms.
+[2015.10.06-06.20.58:700][898]LogFileHelpers: Loading map 'LV_Main' took 0.216
+[2015.10.06-06.21.52:159][323]LogActorFactory: Actor Factory created Cube
+[2015.10.06-06.21.52:405][326]LogActorFactory: Actor Factory created Cube
+[2015.10.06-06.22.08:604][599]Cmd: TRANSACTION UNDO
+[2015.10.06-06.22.08:623][599]LogEditorTransaction: Undo 액터 이동
+[2015.10.06-06.30.54:957][977]LogSavePackage: Save=56.297142ms
+[2015.10.06-06.30.54:957][977]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/LV_Main_Auto1A00D1D43444AA4E020FF5DA1AD5109DE.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/LV/LV_Main_Auto1.umap'
+[2015.10.06-06.30.54:958][977]LogSavePackage: Total save time: 76.032087ms
+[2015.10.06-06.30.54:958][977]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/LV/LV_Main_Auto1.umap
+[2015.10.06-06.30.54:966][977]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LV/LV_Main' took 0.144
+[2015.10.06-06.30.54:966][977]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.144
+[2015.10.06-06.32.03:419][641]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\귤\Documents\GitHub\sinkhole\Res\place.fbx)
+[2015.10.06-06.32.03:642][641]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.06-06.32.03:642][641]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.10.06-06.32.03:643][641]LogFbx: ItemName: Model, ItemCount : 1
+[2015.10.06-06.32.03:643][641]LogFbx: ItemName: Material, ItemCount : 1
+[2015.10.06-06.32.03:665][641]LogFbx: Loading FBX Scene from C:\Users\귤\Documents\GitHub\sinkhole\Res\place.fbx
+[2015.10.06-06.32.03:679][641]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-06.32.16:714][641]LogFbx: Loading FBX Scene from C:\Users\귤\Documents\GitHub\sinkhole\Res\place.fbx
+[2015.10.06-06.32.16:720][641]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-06.32.16:792][641]LogLinker:Warning: '/Game/3d_obj/Material' 파일을 찾을 수 없습니다.
+[2015.10.06-06.32.16:792][641]LogLinker:Warning: '/Game/3d_obj/Material' 파일을 찾을 수 없습니다.
+[2015.10.06-06.32.16:885][641]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.10.06-06.32.17:149][641]LogFbx:Warning: Triangulating static mesh Cube
+[2015.10.06-06.32.17:377][641]LogStaticMesh: place 스태틱 메시 빌드중...
+[2015.10.06-06.32.17:454][641]LogStaticMesh: Built static mesh [0.076157.2s] /Game/3d_obj/place.place
+[2015.10.06-06.32.17:887][641]FBXImport:Warning: 경고 경고: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 올바른 버텍스 노멀을 유추할 수 있도록 FBX 익스포트가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2015.10.06-06.32.18:029][641]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1116) 32 : ConvexHullBuilder::CreateTrianglesFromPolygons: convex hull has a polygon with less than 3 vertices!
+[2015.10.06-06.32.18:029][641]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.10.06-06.32.18:046][641]LogPhysics:Warning: Failed to cook convex: /Game/3d_obj/place.place 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.10.06-06.32.22:519][708]LogActorFactory: Actor Factory created place
+[2015.10.06-06.32.22:519][708]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-06.32.22:519][708]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-06.32.23:539][728]LogActorFactory: Actor Factory created place
+[2015.10.06-06.32.23:539][728]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-06.32.23:560][728]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-06.32.33:519][863]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-06.32.35:558][886]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-06.32.36:714][898]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-06.32.54:016][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-06.32.54:090][237]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오전 12:32:54)
+[2015.10.06-06.32.54:121][237]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-06.32.54:167][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045900s)
+[2015.10.06-06.32.54:168][237]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-06.32.54:168][237]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2015.10.06-06.32.54:168][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.046963s)
+[2015.10.06-06.32.54:299][237]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-06.32.54:308][237]LogInit: FAudioDevice initialized.
+[2015.10.06-06.32.54:792][237]LogWorld: Game class is 'GameMode'
+[2015.10.06-06.32.55:220][237]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-06.32.55:220][237]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.06-15.32.55
+[2015.10.06-06.32.55:220][237]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-06.32.55:237][237]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-06.32.55:252][237]LogWorld: Bringing up level for play took: 0.032847
+[2015.10.06-06.32.56:448][237]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 2.293
+[2015.10.06-06.33.00:523][299]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005AC4342340
+[2015.10.06-06.41.02:191][277]LogSavePackage: Save=14.732442ms
+[2015.10.06-06.41.02:191][277]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/LV_Main_Auto2E7E5D0584F90EE9FBE190BAC8BFA9B38.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/LV/LV_Main_Auto2.umap'
+[2015.10.06-06.41.02:192][277]LogSavePackage: Total save time: 18.165290ms
+[2015.10.06-06.41.02:192][277]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/LV/LV_Main_Auto2.umap
+[2015.10.06-06.41.02:196][277]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LV/LV_Main' took 0.056
+[2015.10.06-06.41.02:196][277]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.056
+[2015.10.06-06.41.02:202][277]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3d_obj/place] ([1] browsable assets)...
+[2015.10.06-06.41.02:264][277]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/3d_obj/place.place]
+[2015.10.06-06.41.02:264][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/3d_obj/place]
+[2015.10.06-06.41.02:264][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/place" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/place_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.10.06-06.41.02:349][277]LogSavePackage: Save=82.256989ms
+[2015.10.06-06.41.02:349][277]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/place_Auto22B0A2B9A456DD8E8350B13AE87D90962.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/place_Auto2.uasset'
+[2015.10.06-06.41.02:351][277]LogSavePackage: Total save time: 84.731556ms
+[2015.10.06-06.41.02:351][277]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/place_Auto2.uasset
+[2015.10.06-06.41.02:355][277]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3d_obj/Material] ([1] browsable assets)...
+[2015.10.06-06.41.02:415][277]OBJ SavePackage:     Rendered thumbnail for [Material /Game/3d_obj/Material.Material]
+[2015.10.06-06.41.02:415][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/3d_obj/Material]
+[2015.10.06-06.41.02:444][277]LogSavePackage: Save=23.099369ms
+[2015.10.06-06.41.02:444][277]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Material_Auto2F44ECDC44F493A079F2D8CBD1EE066E3.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/Material_Auto2.uasset'
+[2015.10.06-06.41.02:445][277]LogSavePackage: Total save time: 24.933826ms
+[2015.10.06-06.41.02:445][277]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/Material_Auto2.uasset
+[2015.10.06-06.41.02:445][277]LogFileHelpers: Auto-saving content packages took 0.248
+[2015.10.06-10.26.32:596][625]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx)
+[2015.10.06-10.26.32:729][625]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.06-10.26.32:729][625]LogFbx: ItemName: NodeAttribute, ItemCount : 25
+[2015.10.06-10.26.32:729][625]LogFbx: ItemName: Geometry, ItemCount : 3
+[2015.10.06-10.26.32:729][625]LogFbx: ItemName: Model, ItemCount : 29
+[2015.10.06-10.26.32:729][625]LogFbx: ItemName: Pose, ItemCount : 3
+[2015.10.06-10.26.32:729][625]LogFbx: ItemName: Deformer, ItemCount : 61
+[2015.10.06-10.26.32:729][625]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.10.06-10.26.32:730][625]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.10.06-10.26.32:730][625]LogFbx: ItemName: AnimationCurveNode, ItemCount : 63
+[2015.10.06-10.26.32:730][625]LogFbx: ItemName: AnimationCurve, ItemCount : 183
+[2015.10.06-10.26.32:781][625]LogFbx: Loading FBX Scene from C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx
+[2015.10.06-10.26.32:946][625]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-10.26.52:350][625]LogFbx: Loading FBX Scene from C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx
+[2015.10.06-10.26.52:384][625]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-10.26.52:444][625]LogFbx: =================================================
+[2015.10.06-10.26.52:444][625]LogFbx: Dumping Node START [Cube.002] 
+[2015.10.06-10.26.52:444][625]LogFbx: 	Total Deformer Count -1063357672.
+[2015.10.06-10.26.52:465][625]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.26.52:465][625]LogFbx: =================================================
+[2015.10.06-10.26.52:465][625]LogFbx: 	Attribute (Mesh) Type (4).
+[2015.10.06-10.26.52:465][625]LogFbx: 		[Node Attribute Child 1] Cube.002 (Type Mesh).
+[2015.10.06-10.26.52:465][625]LogFbx: Dumping Node END [Cube.002]
+[2015.10.06-10.26.52:465][625]LogFbx: =================================================
+[2015.10.06-10.26.52:465][625]LogFbx: Dumping Node START [Cube] 
+[2015.10.06-10.26.52:465][625]LogFbx: 	Total Deformer Count -806286272.
+[2015.10.06-10.26.52:465][625]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.26.52:465][625]LogFbx: =================================================
+[2015.10.06-10.26.52:465][625]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2015.10.06-10.26.52:465][625]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.10.06-10.26.52:465][625]LogFbx: Dumping Node END [Cube]
+[2015.10.06-10.26.52:465][625]LogFbx: =================================================
+[2015.10.06-10.26.52:465][625]LogFbx: Dumping Node START [Cube.001] 
+[2015.10.06-10.26.52:465][625]LogFbx: 	Total Deformer Count -1063357672.
+[2015.10.06-10.26.52:465][625]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.26.52:465][625]LogFbx: =================================================
+[2015.10.06-10.26.52:465][625]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2015.10.06-10.26.52:465][625]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2015.10.06-10.26.52:465][625]LogFbx: Dumping Node END [Cube.001]
+[2015.10.06-10.26.52:466][625]LogFbx: =================================================
+[2015.10.06-10.26.52:466][625]LogFbx: Dumping Node START [Cube.002] 
+[2015.10.06-10.26.52:466][625]LogFbx: 	Total Deformer Count -1063355544.
+[2015.10.06-10.26.52:466][625]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.26.52:466][625]LogFbx: =================================================
+[2015.10.06-10.26.52:466][625]LogFbx: 	Attribute (Mesh) Type (4).
+[2015.10.06-10.26.52:466][625]LogFbx: 		[Node Attribute Child 1] Cube.002 (Type Mesh).
+[2015.10.06-10.26.52:466][625]LogFbx: Dumping Node END [Cube.002]
+[2015.10.06-10.26.52:466][625]LogFbx: =================================================
+[2015.10.06-10.26.52:466][625]LogFbx: Dumping Node START [Cube] 
+[2015.10.06-10.26.52:466][625]LogFbx: 	Total Deformer Count -806288000.
+[2015.10.06-10.26.52:466][625]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.26.52:466][625]LogFbx: =================================================
+[2015.10.06-10.26.52:467][625]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2015.10.06-10.26.52:467][625]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.10.06-10.26.52:467][625]LogFbx: Dumping Node END [Cube]
+[2015.10.06-10.26.52:467][625]LogFbx: =================================================
+[2015.10.06-10.26.52:467][625]LogFbx: Dumping Node START [Cube.001] 
+[2015.10.06-10.26.52:467][625]LogFbx: 	Total Deformer Count -1063355544.
+[2015.10.06-10.26.52:467][625]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.26.52:467][625]LogFbx: =================================================
+[2015.10.06-10.26.52:467][625]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2015.10.06-10.26.52:467][625]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2015.10.06-10.26.52:467][625]LogFbx: Dumping Node END [Cube.001]
+[2015.10.06-10.26.52:525][625]LogFbx: Valid bind pose for Pose (Mesh) - Cube.002
+[2015.10.06-10.26.52:526][625]LogFbx: Valid bind pose for Pose (Mesh.001) - Cube.002
+[2015.10.06-10.26.52:526][625]LogFbx: Valid bind pose for Pose (Mesh.002) - Cube.002
+[2015.10.06-10.26.52:539][625]FBXImport:Warning: 경고 경고: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 올바른 버텍스 노멀을 유추할 수 있도록 FBX 익스포트가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2015.10.06-10.26.52:539][625]FBXImport:Error: 오류 본 계층구조에 다수의 루트를 찾았습니다. 단일 루트 본만 지원합니다. 
+[2015.10.06-10.26.52:539][625]FBXImport:Error: 오류 여러개의 루트가 발견되었습니다. 
+[2015.10.06-10.26.52:539][625]FBXImport:Error: 오류 임포트에 실패했습니다. 
+[2015.10.06-10.26.54:698][625]LogAssetTools:Warning: 'C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx' 임포트에 실패했습니다. '/Game/3d_obj/GameStart' 애셋 생성에 실패했습니다.
+[2015.10.06-10.27.17:936][781]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LV/LV_Main' took 0.093
+[2015.10.06-10.27.18:413][781]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/3d_obj/GameStart] ([1] browsable assets)...
+[2015.10.06-10.27.18:415][781]OBJ SavePackage: Finished generating thumbnails for package [/Game/3d_obj/GameStart]
+[2015.10.06-10.27.18:480][781]LogSavePackage: Save=27.948601ms
+[2015.10.06-10.27.18:480][781]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_Auto382F68D9149DBE80881BEF19D78B827ED.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/GameStart_Auto3.uasset'
+[2015.10.06-10.27.18:482][781]LogSavePackage: Total save time: 47.471773ms
+[2015.10.06-10.27.18:482][781]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/GameStart_Auto3.uasset
+[2015.10.06-10.27.18:510][781]LogFileHelpers: Auto-saving content packages took 0.573
+[2015.10.06-10.32.50:153][863]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx)
+[2015.10.06-10.32.50:165][863]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.06-10.32.50:165][863]LogFbx: ItemName: NodeAttribute, ItemCount : 26
+[2015.10.06-10.32.50:165][863]LogFbx: ItemName: Geometry, ItemCount : 3
+[2015.10.06-10.32.50:165][863]LogFbx: ItemName: Model, ItemCount : 30
+[2015.10.06-10.32.50:165][863]LogFbx: ItemName: Pose, ItemCount : 3
+[2015.10.06-10.32.50:165][863]LogFbx: ItemName: Deformer, ItemCount : 64
+[2015.10.06-10.32.50:165][863]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.10.06-10.32.50:165][863]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.10.06-10.32.50:165][863]LogFbx: ItemName: AnimationCurveNode, ItemCount : 66
+[2015.10.06-10.32.50:165][863]LogFbx: ItemName: AnimationCurve, ItemCount : 192
+[2015.10.06-10.32.50:171][863]LogFbx: Loading FBX Scene from C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx
+[2015.10.06-10.32.50:204][863]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-10.32.52:452][863]LogFbx: Loading FBX Scene from C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx
+[2015.10.06-10.32.52:484][863]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-10.32.52:488][863]LogFbx: =================================================
+[2015.10.06-10.32.52:488][863]LogFbx: Dumping Node START [Cube.002] 
+[2015.10.06-10.32.52:488][863]LogFbx: 	Total Deformer Count -751872344.
+[2015.10.06-10.32.52:488][863]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.32.52:488][863]LogFbx: =================================================
+[2015.10.06-10.32.52:488][863]LogFbx: 	Attribute (Mesh) Type (4).
+[2015.10.06-10.32.52:488][863]LogFbx: 		[Node Attribute Child 1] Cube.002 (Type Mesh).
+[2015.10.06-10.32.52:488][863]LogFbx: Dumping Node END [Cube.002]
+[2015.10.06-10.32.52:488][863]LogFbx: =================================================
+[2015.10.06-10.32.52:488][863]LogFbx: Dumping Node START [Cube] 
+[2015.10.06-10.32.52:488][863]LogFbx: 	Total Deformer Count -1063805616.
+[2015.10.06-10.32.52:488][863]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.32.52:488][863]LogFbx: =================================================
+[2015.10.06-10.32.52:488][863]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2015.10.06-10.32.52:488][863]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.10.06-10.32.52:488][863]LogFbx: Dumping Node END [Cube]
+[2015.10.06-10.32.52:488][863]LogFbx: =================================================
+[2015.10.06-10.32.52:488][863]LogFbx: Dumping Node START [Cube.001] 
+[2015.10.06-10.32.52:488][863]LogFbx: 	Total Deformer Count -751872344.
+[2015.10.06-10.32.52:488][863]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.32.52:488][863]LogFbx: =================================================
+[2015.10.06-10.32.52:488][863]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2015.10.06-10.32.52:488][863]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2015.10.06-10.32.52:488][863]LogFbx: Dumping Node END [Cube.001]
+[2015.10.06-10.32.52:488][863]LogFbx: =================================================
+[2015.10.06-10.32.52:488][863]LogFbx: Dumping Node START [Cube.002] 
+[2015.10.06-10.32.52:488][863]LogFbx: 	Total Deformer Count -751862880.
+[2015.10.06-10.32.52:488][863]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.32.52:488][863]LogFbx: =================================================
+[2015.10.06-10.32.52:488][863]LogFbx: 	Attribute (Mesh) Type (4).
+[2015.10.06-10.32.52:488][863]LogFbx: 		[Node Attribute Child 1] Cube.002 (Type Mesh).
+[2015.10.06-10.32.52:488][863]LogFbx: Dumping Node END [Cube.002]
+[2015.10.06-10.32.52:488][863]LogFbx: =================================================
+[2015.10.06-10.32.52:488][863]LogFbx: Dumping Node START [Cube] 
+[2015.10.06-10.32.52:488][863]LogFbx: 	Total Deformer Count -1063807104.
+[2015.10.06-10.32.52:488][863]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.32.52:488][863]LogFbx: =================================================
+[2015.10.06-10.32.52:488][863]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2015.10.06-10.32.52:488][863]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.10.06-10.32.52:488][863]LogFbx: Dumping Node END [Cube]
+[2015.10.06-10.32.52:488][863]LogFbx: =================================================
+[2015.10.06-10.32.52:488][863]LogFbx: Dumping Node START [Cube.001] 
+[2015.10.06-10.32.52:488][863]LogFbx: 	Total Deformer Count -751862880.
+[2015.10.06-10.32.52:488][863]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.32.52:488][863]LogFbx: =================================================
+[2015.10.06-10.32.52:488][863]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2015.10.06-10.32.52:488][863]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2015.10.06-10.32.52:488][863]LogFbx: Dumping Node END [Cube.001]
+[2015.10.06-10.32.52:489][863]LogFbx: Valid bind pose for Pose (Mesh) - Cube.002
+[2015.10.06-10.32.52:489][863]LogFbx: Valid bind pose for Pose (Mesh.001) - Cube.002
+[2015.10.06-10.32.52:490][863]LogFbx: Valid bind pose for Pose (Mesh.002) - Cube.002
+[2015.10.06-10.32.52:502][863]LogFbx: Triangulating skeletal mesh Cube.002
+[2015.10.06-10.32.52:871][863]LogFbx: Triangulating skeletal mesh Cube
+[2015.10.06-10.32.53:705][863]LogFbx: Triangulating skeletal mesh Cube.001
+[2015.10.06-10.32.54:661][863]LogFbx:Warning: Bones digested - 30  Depth of hierarchy - 9
+[2015.10.06-10.32.54:894][863]LogSkeletalMesh: Chunk 0: 3292 rigid vertices, 4955 soft vertices, 21 active bones
+[2015.10.06-10.32.55:175][863]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 14592 triangles
+[2015.10.06-10.32.55:254][863]LogLinker:Warning: '/Game/3d_obj/GameStart_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2015.10.06-10.32.55:255][863]LogLinker:Warning: '/Game/3d_obj/GameStart_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2015.10.06-10.32.55:255][863]LogUObjectGlobals:Warning: 'Object /Game/3d_obj/GameStart_PhysicsAsset.GameStart_PhysicsAsset' 오브젝트를 찾는 데 실패했습니다.
+[2015.10.06-10.32.55:335][863]LogLinker:Warning: '/Game/3d_obj/GameStart_Skeleton' 파일을 찾을 수 없습니다.
+[2015.10.06-10.32.55:335][863]LogLinker:Warning: '/Game/3d_obj/GameStart_Skeleton' 파일을 찾을 수 없습니다.
+[2015.10.06-10.32.55:335][863]LogUObjectGlobals:Warning: 'Object /Game/3d_obj/GameStart_Skeleton.GameStart_Skeleton' 오브젝트를 찾는 데 실패했습니다.
+[2015.10.06-10.32.55:409][863]FBXImport:Warning: 경고 경고: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 올바른 버텍스 노멀을 유추할 수 있도록 FBX 익스포트가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2015.10.06-10.32.55:409][863]FBXImport:Warning: 경고 바인드 포즈에서 빠진 본은 다음과 같습니다:
+Tank.002_end  
+Hat.001_end  
+Hat.002_end  
+Hat.003_end  
+Hand.L_end  
+Hand.R_end  
+Body.001_end  
+Tank.003_end  
+Tank.004_end  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2015.10.06-10.33.06:210][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.06-10.33.06:332][949]LogSavePackage: Save=24.222212ms
+[2015.10.06-10.33.06:332][949]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/LV_Main536E87C8441BDF2227FF63A7A2899F86.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap'
+[2015.10.06-10.33.06:336][949]LogSavePackage: Total save time: 44.876095ms
+[2015.10.06-10.33.06:336][949]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap
+[2015.10.06-10.33.06:419][949]LogFileHelpers: Saving map 'LV_Main' took 3.526
+[2015.10.06-10.33.06:491][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/place" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/place.uasset" SILENT=true
+[2015.10.06-10.33.06:522][949]LogSavePackage: Save=29.228477ms
+[2015.10.06-10.33.06:522][949]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/place6F24304949F6EBEC74D5048A45019C1B.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/place.uasset'
+[2015.10.06-10.33.06:526][949]LogSavePackage: Total save time: 33.061612ms
+[2015.10.06-10.33.06:526][949]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/place.uasset
+[2015.10.06-10.33.06:569][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Material" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Material.uasset" SILENT=true
+[2015.10.06-10.33.06:614][949]LogSavePackage: Save=43.157276ms
+[2015.10.06-10.33.06:614][949]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/MaterialB266D1E74B6828C4FF8D6388B4844337.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Material.uasset'
+[2015.10.06-10.33.06:618][949]LogSavePackage: Total save time: 46.873745ms
+[2015.10.06-10.33.06:618][949]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Material.uasset
+[2015.10.06-10.33.06:660][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/GameStart" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart.uasset" SILENT=true
+[2015.10.06-10.33.06:753][949]LogSavePackage: Save=91.249657ms
+[2015.10.06-10.33.06:753][949]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/GameStartFCA05E6543D2C7A3A0CE189B5C622248.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart.uasset'
+[2015.10.06-10.33.06:755][949]LogSavePackage: Total save time: 93.499448ms
+[2015.10.06-10.33.06:755][949]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart.uasset
+[2015.10.06-10.33.06:762][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/GameStart_PhysicsAsset" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart_PhysicsAsset.uasset" SILENT=true
+[2015.10.06-10.33.06:795][949]LogSavePackage: Save=5.019267ms
+[2015.10.06-10.33.06:795][949]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_PhysicsAsset0F5A41F3423419753BB244ABCF3F4088.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart_PhysicsAsset.uasset'
+[2015.10.06-10.33.06:797][949]LogSavePackage: Total save time: 7.252637ms
+[2015.10.06-10.33.06:797][949]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart_PhysicsAsset.uasset
+[2015.10.06-10.33.06:804][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/GameStart_Skeleton" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart_Skeleton.uasset" SILENT=true
+[2015.10.06-10.33.06:810][949]LogSavePackage: Save=3.962453ms
+[2015.10.06-10.33.06:810][949]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_Skeleton492A85CB46D240ED3FFCDB84C6DE070B.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart_Skeleton.uasset'
+[2015.10.06-10.33.06:812][949]LogSavePackage: Total save time: 6.242350ms
+[2015.10.06-10.33.06:812][949]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart_Skeleton.uasset
+[2015.10.06-10.33.13:099][976]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.10.06-10.33.13:536][976]LogUObjectGlobals:Warning: 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C' 오브젝트를 찾는 데 실패했습니다.
+[2015.10.06-10.33.16:396][ 12]LogRenderer: Reallocating scene render targets to support 804x824 (Frame:7587).
+[2015.10.06-10.33.28:062][ 96]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx)
+[2015.10.06-10.33.28:068][ 96]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.06-10.33.28:068][ 96]LogFbx: ItemName: NodeAttribute, ItemCount : 26
+[2015.10.06-10.33.28:068][ 96]LogFbx: ItemName: Geometry, ItemCount : 3
+[2015.10.06-10.33.28:068][ 96]LogFbx: ItemName: Model, ItemCount : 30
+[2015.10.06-10.33.28:068][ 96]LogFbx: ItemName: Pose, ItemCount : 3
+[2015.10.06-10.33.28:068][ 96]LogFbx: ItemName: Deformer, ItemCount : 64
+[2015.10.06-10.33.28:068][ 96]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.10.06-10.33.28:068][ 96]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.10.06-10.33.28:068][ 96]LogFbx: ItemName: AnimationCurveNode, ItemCount : 66
+[2015.10.06-10.33.28:068][ 96]LogFbx: ItemName: AnimationCurve, ItemCount : 192
+[2015.10.06-10.33.28:073][ 96]LogFbx: Loading FBX Scene from C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx
+[2015.10.06-10.33.28:105][ 96]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-10.33.34:261][ 96]LogFbx: Loading FBX Scene from C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx
+[2015.10.06-10.33.34:300][ 96]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-10.33.34:304][ 96]LogFbx: =================================================
+[2015.10.06-10.33.34:304][ 96]LogFbx: Dumping Node START [Cube.002] 
+[2015.10.06-10.33.34:304][ 96]LogFbx: 	Total Deformer Count -713299312.
+[2015.10.06-10.33.34:304][ 96]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.33.34:304][ 96]LogFbx: =================================================
+[2015.10.06-10.33.34:304][ 96]LogFbx: 	Attribute (Mesh) Type (4).
+[2015.10.06-10.33.34:304][ 96]LogFbx: 		[Node Attribute Child 1] Cube.002 (Type Mesh).
+[2015.10.06-10.33.34:304][ 96]LogFbx: Dumping Node END [Cube.002]
+[2015.10.06-10.33.34:304][ 96]LogFbx: =================================================
+[2015.10.06-10.33.34:304][ 96]LogFbx: Dumping Node START [Cube] 
+[2015.10.06-10.33.34:304][ 96]LogFbx: 	Total Deformer Count -744901776.
+[2015.10.06-10.33.34:304][ 96]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.33.34:304][ 96]LogFbx: =================================================
+[2015.10.06-10.33.34:304][ 96]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2015.10.06-10.33.34:304][ 96]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.10.06-10.33.34:304][ 96]LogFbx: Dumping Node END [Cube]
+[2015.10.06-10.33.34:304][ 96]LogFbx: =================================================
+[2015.10.06-10.33.34:304][ 96]LogFbx: Dumping Node START [Cube.001] 
+[2015.10.06-10.33.34:304][ 96]LogFbx: 	Total Deformer Count -713299312.
+[2015.10.06-10.33.34:304][ 96]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.33.34:304][ 96]LogFbx: =================================================
+[2015.10.06-10.33.34:304][ 96]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2015.10.06-10.33.34:304][ 96]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2015.10.06-10.33.34:304][ 96]LogFbx: Dumping Node END [Cube.001]
+[2015.10.06-10.33.34:305][ 96]LogFbx: =================================================
+[2015.10.06-10.33.34:305][ 96]LogFbx: Dumping Node START [Cube.002] 
+[2015.10.06-10.33.34:305][ 96]LogFbx: 	Total Deformer Count -713295672.
+[2015.10.06-10.33.34:305][ 96]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.33.34:305][ 96]LogFbx: =================================================
+[2015.10.06-10.33.34:305][ 96]LogFbx: 	Attribute (Mesh) Type (4).
+[2015.10.06-10.33.34:305][ 96]LogFbx: 		[Node Attribute Child 1] Cube.002 (Type Mesh).
+[2015.10.06-10.33.34:305][ 96]LogFbx: Dumping Node END [Cube.002]
+[2015.10.06-10.33.34:305][ 96]LogFbx: =================================================
+[2015.10.06-10.33.34:305][ 96]LogFbx: Dumping Node START [Cube] 
+[2015.10.06-10.33.34:305][ 96]LogFbx: 	Total Deformer Count -744901968.
+[2015.10.06-10.33.34:305][ 96]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.33.34:305][ 96]LogFbx: =================================================
+[2015.10.06-10.33.34:305][ 96]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2015.10.06-10.33.34:305][ 96]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.10.06-10.33.34:305][ 96]LogFbx: Dumping Node END [Cube]
+[2015.10.06-10.33.34:305][ 96]LogFbx: =================================================
+[2015.10.06-10.33.34:305][ 96]LogFbx: Dumping Node START [Cube.001] 
+[2015.10.06-10.33.34:305][ 96]LogFbx: 	Total Deformer Count -713295672.
+[2015.10.06-10.33.34:305][ 96]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.33.34:305][ 96]LogFbx: =================================================
+[2015.10.06-10.33.34:305][ 96]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2015.10.06-10.33.34:305][ 96]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2015.10.06-10.33.34:305][ 96]LogFbx: Dumping Node END [Cube.001]
+[2015.10.06-10.33.34:326][ 96]LogFbx: Valid bind pose for Pose (Mesh) - Cube.002
+[2015.10.06-10.33.34:326][ 96]LogFbx: Valid bind pose for Pose (Mesh.001) - Cube.002
+[2015.10.06-10.33.34:326][ 96]LogFbx: Valid bind pose for Pose (Mesh.002) - Cube.002
+[2015.10.06-10.33.34:327][ 96]LogFbx: Triangulating skeletal mesh Cube.002
+[2015.10.06-10.33.34:669][ 96]LogFbx: Triangulating skeletal mesh Cube
+[2015.10.06-10.33.35:437][ 96]LogFbx: Triangulating skeletal mesh Cube.001
+[2015.10.06-10.33.36:298][ 96]LogFbx:Warning: Bones digested - 30  Depth of hierarchy - 9
+[2015.10.06-10.33.36:418][ 96]LogSkeletalMesh: Chunk 0: 3295 rigid vertices, 4956 soft vertices, 21 active bones
+[2015.10.06-10.33.36:436][ 96]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 14592 triangles
+[2015.10.06-10.33.36:466][ 96]FBXImport:Warning: 경고 경고: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 올바른 버텍스 노멀을 유추할 수 있도록 FBX 익스포트가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2015.10.06-10.33.36:466][ 96]FBXImport:Warning: 경고 바인드 포즈에서 빠진 본은 다음과 같습니다:
+Tank.002_end  
+Hat.001_end  
+Hat.002_end  
+Hat.003_end  
+Hand.L_end  
+Hand.R_end  
+Body.001_end  
+Tank.003_end  
+Tank.004_end  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2015.10.06-10.33.40:046][159]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2015.10.06-10.33.40:065][159]LogUObjectGlobals:Warning: 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C' 오브젝트를 찾는 데 실패했습니다.
+[2015.10.06-10.34.09:002][564]LogActorFactory: Actor Factory created Cube
+[2015.10.06-10.34.11:955][619]LogActorFactory: Actor Factory created Cube
+[2015.10.06-10.34.27:663][920]Cmd: TRANSACTION UNDO
+[2015.10.06-10.34.27:663][920]LogEditorTransaction: Undo 액터 생성
+[2015.10.06-10.34.28:130][938]Cmd: TRANSACTION UNDO
+[2015.10.06-10.34.28:131][938]LogEditorTransaction: Undo 액터 생성
+[2015.10.06-10.34.36:590][ 34]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx)
+[2015.10.06-10.34.36:596][ 34]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.06-10.34.36:596][ 34]LogFbx: ItemName: NodeAttribute, ItemCount : 26
+[2015.10.06-10.34.36:596][ 34]LogFbx: ItemName: Geometry, ItemCount : 3
+[2015.10.06-10.34.36:596][ 34]LogFbx: ItemName: Model, ItemCount : 30
+[2015.10.06-10.34.36:596][ 34]LogFbx: ItemName: Pose, ItemCount : 3
+[2015.10.06-10.34.36:596][ 34]LogFbx: ItemName: Deformer, ItemCount : 64
+[2015.10.06-10.34.36:596][ 34]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.10.06-10.34.36:596][ 34]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.10.06-10.34.36:596][ 34]LogFbx: ItemName: AnimationCurveNode, ItemCount : 66
+[2015.10.06-10.34.36:597][ 34]LogFbx: ItemName: AnimationCurve, ItemCount : 192
+[2015.10.06-10.34.36:602][ 34]LogFbx: Loading FBX Scene from C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx
+[2015.10.06-10.34.36:634][ 34]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-10.34.41:385][ 34]LogFbx: Loading FBX Scene from C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx
+[2015.10.06-10.34.41:419][ 34]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-10.34.41:424][ 34]LogFbx: =================================================
+[2015.10.06-10.34.41:424][ 34]LogFbx: Dumping Node START [Cube.002] 
+[2015.10.06-10.34.41:424][ 34]LogFbx: 	Total Deformer Count -907027984.
+[2015.10.06-10.34.41:424][ 34]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.34.41:424][ 34]LogFbx: =================================================
+[2015.10.06-10.34.41:424][ 34]LogFbx: 	Attribute (Mesh) Type (4).
+[2015.10.06-10.34.41:424][ 34]LogFbx: 		[Node Attribute Child 1] Cube.002 (Type Mesh).
+[2015.10.06-10.34.41:424][ 34]LogFbx: Dumping Node END [Cube.002]
+[2015.10.06-10.34.41:424][ 34]LogFbx: =================================================
+[2015.10.06-10.34.41:424][ 34]LogFbx: Dumping Node START [Cube] 
+[2015.10.06-10.34.41:424][ 34]LogFbx: 	Total Deformer Count -841792080.
+[2015.10.06-10.34.41:424][ 34]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.34.41:424][ 34]LogFbx: =================================================
+[2015.10.06-10.34.41:424][ 34]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2015.10.06-10.34.41:424][ 34]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.10.06-10.34.41:424][ 34]LogFbx: Dumping Node END [Cube]
+[2015.10.06-10.34.41:424][ 34]LogFbx: =================================================
+[2015.10.06-10.34.41:424][ 34]LogFbx: Dumping Node START [Cube.001] 
+[2015.10.06-10.34.41:424][ 34]LogFbx: 	Total Deformer Count -907027984.
+[2015.10.06-10.34.41:424][ 34]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.34.41:424][ 34]LogFbx: =================================================
+[2015.10.06-10.34.41:424][ 34]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2015.10.06-10.34.41:424][ 34]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2015.10.06-10.34.41:424][ 34]LogFbx: Dumping Node END [Cube.001]
+[2015.10.06-10.34.41:424][ 34]LogFbx: =================================================
+[2015.10.06-10.34.41:424][ 34]LogFbx: Dumping Node START [Cube.002] 
+[2015.10.06-10.34.41:424][ 34]LogFbx: 	Total Deformer Count -907031288.
+[2015.10.06-10.34.41:424][ 34]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.34.41:424][ 34]LogFbx: =================================================
+[2015.10.06-10.34.41:424][ 34]LogFbx: 	Attribute (Mesh) Type (4).
+[2015.10.06-10.34.41:424][ 34]LogFbx: 		[Node Attribute Child 1] Cube.002 (Type Mesh).
+[2015.10.06-10.34.41:424][ 34]LogFbx: Dumping Node END [Cube.002]
+[2015.10.06-10.34.41:424][ 34]LogFbx: =================================================
+[2015.10.06-10.34.41:424][ 34]LogFbx: Dumping Node START [Cube] 
+[2015.10.06-10.34.41:424][ 34]LogFbx: 	Total Deformer Count -841792800.
+[2015.10.06-10.34.41:424][ 34]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.34.41:424][ 34]LogFbx: =================================================
+[2015.10.06-10.34.41:424][ 34]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2015.10.06-10.34.41:424][ 34]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.10.06-10.34.41:424][ 34]LogFbx: Dumping Node END [Cube]
+[2015.10.06-10.34.41:424][ 34]LogFbx: =================================================
+[2015.10.06-10.34.41:424][ 34]LogFbx: Dumping Node START [Cube.001] 
+[2015.10.06-10.34.41:424][ 34]LogFbx: 	Total Deformer Count -907031288.
+[2015.10.06-10.34.41:424][ 34]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.34.41:424][ 34]LogFbx: =================================================
+[2015.10.06-10.34.41:424][ 34]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2015.10.06-10.34.41:424][ 34]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2015.10.06-10.34.41:424][ 34]LogFbx: Dumping Node END [Cube.001]
+[2015.10.06-10.34.41:425][ 34]LogFbx: Valid bind pose for Pose (Mesh) - Cube.002
+[2015.10.06-10.34.41:426][ 34]LogFbx: Valid bind pose for Pose (Mesh.001) - Cube.002
+[2015.10.06-10.34.41:426][ 34]LogFbx: Valid bind pose for Pose (Mesh.002) - Cube.002
+[2015.10.06-10.34.41:427][ 34]LogFbx: Triangulating skeletal mesh Cube.002
+[2015.10.06-10.34.41:769][ 34]LogFbx: Triangulating skeletal mesh Cube
+[2015.10.06-10.34.42:549][ 34]LogFbx: Triangulating skeletal mesh Cube.001
+[2015.10.06-10.34.43:412][ 34]LogFbx:Warning: Bones digested - 30  Depth of hierarchy - 9
+[2015.10.06-10.34.43:544][ 34]LogSkeletalMesh: Chunk 0: 3293 rigid vertices, 4956 soft vertices, 21 active bones
+[2015.10.06-10.34.43:562][ 34]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 14592 triangles
+[2015.10.06-10.34.43:573][ 34]FBXImport:Warning: 경고 경고: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 올바른 버텍스 노멀을 유추할 수 있도록 FBX 익스포트가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2015.10.06-10.34.43:573][ 34]FBXImport:Warning: 경고 바인드 포즈에서 빠진 본은 다음과 같습니다:
+Tank.002_end  
+Hat.001_end  
+Hat.002_end  
+Hat.003_end  
+Hand.L_end  
+Hand.R_end  
+Body.001_end  
+Tank.003_end  
+Tank.004_end  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2015.10.06-10.35.14:907][739]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2015.10.06-10.35.14:926][739]LogUObjectGlobals:Warning: 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C' 오브젝트를 찾는 데 실패했습니다.
+[2015.10.06-10.35.48:160][205]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005ACFF00B80
+[2015.10.06-10.35.48:160][205]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005ACFF00EA0
+[2015.10.06-10.35.48:160][205]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005AD39887C0
+[2015.10.06-10.35.48:160][205]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005AD39889A0
+[2015.10.06-10.35.48:160][205]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005AD589BE20
+[2015.10.06-10.35.48:160][205]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005AD5898680
+[2015.10.06-10.35.48:254][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.06-10.35.48:290][205]LogSavePackage: Save=14.129966ms
+[2015.10.06-10.35.48:290][205]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/LV_Main649FAE7742712D90EC13E890E219E814.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap'
+[2015.10.06-10.35.48:293][205]LogSavePackage: Total save time: 17.719164ms
+[2015.10.06-10.35.48:293][205]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap
+[2015.10.06-10.35.48:317][205]LogFileHelpers: Saving map 'LV_Main' took 0.112
+[2015.10.06-10.35.48:362][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/GameStart" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart.uasset" SILENT=true
+[2015.10.06-10.35.48:398][205]LogSavePackage: Save=29.520308ms
+[2015.10.06-10.35.48:398][205]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/GameStartA466C032491D6E15A23CFDA703037AE7.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart.uasset'
+[2015.10.06-10.35.48:401][205]LogSavePackage: Total save time: 38.154088ms
+[2015.10.06-10.35.48:401][205]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart.uasset
+[2015.10.06-10.36.09:488][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Main/GameStart_Skeleton" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart_Skeleton.uasset" SILENT=true
+[2015.10.06-10.36.09:507][928]LogSavePackage: Save=14.669492ms
+[2015.10.06-10.36.09:507][928]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_SkeletonED001DD44790A492941E1099A26012C8.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart_Skeleton.uasset'
+[2015.10.06-10.36.09:512][928]LogSavePackage: Total save time: 20.334683ms
+[2015.10.06-10.36.09:512][928]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart_Skeleton.uasset
+[2015.10.06-10.36.09:559][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Main/GameStart" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart.uasset" SILENT=true
+[2015.10.06-10.36.09:591][928]LogSavePackage: Save=29.852509ms
+[2015.10.06-10.36.09:591][928]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart3240E59242A3EE6D28DF8AB4BF08DAE4.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart.uasset'
+[2015.10.06-10.36.09:593][928]LogSavePackage: Total save time: 32.214515ms
+[2015.10.06-10.36.09:593][928]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart.uasset
+[2015.10.06-10.36.09:599][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/GameStart" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart.uasset" SILENT=true
+[2015.10.06-10.36.09:604][928]LogSavePackage: Save=3.418479ms
+[2015.10.06-10.36.09:604][928]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart21289AF844FDF02DB9ACB184CE673C60.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart.uasset'
+[2015.10.06-10.36.09:607][928]LogSavePackage: Total save time: 6.677531ms
+[2015.10.06-10.36.09:607][928]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/GameStart.uasset
+[2015.10.06-10.36.09:619][928]LogSavePackage: Save=5.305964ms
+[2015.10.06-10.36.09:619][928]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_PhysicsAsset3F841C0A4A13E42B98D8BA880EC1A1B9.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart_PhysicsAsset.uasset'
+[2015.10.06-10.36.09:621][928]LogSavePackage: Total save time: 7.452779ms
+[2015.10.06-10.36.09:621][928]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart_PhysicsAsset.uasset
+[2015.10.06-10.41.22:494][199]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\귤\Documents\GitHub\sinkhole\Res\고글모자.png)
+[2015.10.06-10.41.22:562][199]LogTexture:Display: 텍스처 빌드중: 고글모자 (AutoDXT)
+[2015.10.06-10.41.22:854][199]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\귤\Documents\GitHub\sinkhole\Res\기본캐릭터.jpg)
+[2015.10.06-10.41.22:884][199]LogTexture:Display: 텍스처 빌드중: 기본캐릭터 (AutoDXT)
+[2015.10.06-10.41.22:966][199]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\귤\Documents\GitHub\sinkhole\Res\탱크.png)
+[2015.10.06-10.41.22:982][199]LogTexture:Display: 텍스처 빌드중: 탱크 (AutoDXT)
+[2015.10.06-10.41.25:006][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Main/고글모자" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/고글모자.uasset" SILENT=true
+[2015.10.06-10.41.25:021][227]LogSavePackage: Save=13.382772ms
+[2015.10.06-10.41.25:021][227]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/고글모자30F00CF64500647018739FA62A28E9B7.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/고글모자.uasset'
+[2015.10.06-10.41.25:023][227]LogSavePackage: Total save time: 15.638381ms
+[2015.10.06-10.41.25:023][227]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/고글모자.uasset
+[2015.10.06-10.41.25:037][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Main/기본캐릭터" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/기본캐릭터.uasset" SILENT=true
+[2015.10.06-10.41.25:067][227]LogSavePackage: Save=28.003340ms
+[2015.10.06-10.41.25:067][227]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/기본캐릭터C8B028FB4192DC8CAA9063B8FE658D39.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/기본캐릭터.uasset'
+[2015.10.06-10.41.25:069][227]LogSavePackage: Total save time: 30.674625ms
+[2015.10.06-10.41.25:069][227]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/기본캐릭터.uasset
+[2015.10.06-10.41.25:084][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Main/탱크" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/탱크.uasset" SILENT=true
+[2015.10.06-10.41.25:144][227]LogSavePackage: Save=58.013565ms
+[2015.10.06-10.41.25:144][227]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/탱크07BE83D04D45BB02974BD3B32226DD97.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/탱크.uasset'
+[2015.10.06-10.41.25:146][227]LogSavePackage: Total save time: 60.852148ms
+[2015.10.06-10.41.25:146][227]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/탱크.uasset
+[2015.10.06-10.41.28:335][278]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2015.10.06-10.41.28:351][278]LogUObjectGlobals:Warning: 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C' 오브젝트를 찾는 데 실패했습니다.
+[2015.10.06-10.41.35:989][378]LogMaterial:Warning: Material /Game/3d_obj/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2015.10.06-10.41.36:042][378]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.10.06-10.41.36:186][378]LogMaterial: 0.000771 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.45.48:250][515]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx)
+[2015.10.06-10.45.48:260][515]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.06-10.45.48:260][515]LogFbx: ItemName: NodeAttribute, ItemCount : 26
+[2015.10.06-10.45.48:260][515]LogFbx: ItemName: Geometry, ItemCount : 3
+[2015.10.06-10.45.48:260][515]LogFbx: ItemName: Model, ItemCount : 30
+[2015.10.06-10.45.48:260][515]LogFbx: ItemName: Pose, ItemCount : 3
+[2015.10.06-10.45.48:260][515]LogFbx: ItemName: Deformer, ItemCount : 64
+[2015.10.06-10.45.48:260][515]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.10.06-10.45.48:260][515]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.10.06-10.45.48:260][515]LogFbx: ItemName: AnimationCurveNode, ItemCount : 66
+[2015.10.06-10.45.48:260][515]LogFbx: ItemName: AnimationCurve, ItemCount : 192
+[2015.10.06-10.45.48:265][515]LogFbx: Loading FBX Scene from C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx
+[2015.10.06-10.45.48:299][515]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-10.45.52:536][515]LogFbx: Loading FBX Scene from C:\Users\귤\Documents\GitHub\sinkhole\Res\GameStart.fbx
+[2015.10.06-10.45.52:571][515]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-10.45.52:575][515]LogFbx: =================================================
+[2015.10.06-10.45.52:575][515]LogFbx: Dumping Node START [Cube.002] 
+[2015.10.06-10.45.52:575][515]LogFbx: 	Total Deformer Count -712671456.
+[2015.10.06-10.45.52:575][515]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.45.52:575][515]LogFbx: =================================================
+[2015.10.06-10.45.52:575][515]LogFbx: 	Attribute (Mesh) Type (4).
+[2015.10.06-10.45.52:575][515]LogFbx: 		[Node Attribute Child 1] Cube.002 (Type Mesh).
+[2015.10.06-10.45.52:575][515]LogFbx: Dumping Node END [Cube.002]
+[2015.10.06-10.45.52:575][515]LogFbx: =================================================
+[2015.10.06-10.45.52:575][515]LogFbx: Dumping Node START [Cube] 
+[2015.10.06-10.45.52:575][515]LogFbx: 	Total Deformer Count -677519856.
+[2015.10.06-10.45.52:575][515]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.45.52:575][515]LogFbx: =================================================
+[2015.10.06-10.45.52:575][515]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2015.10.06-10.45.52:575][515]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.10.06-10.45.52:575][515]LogFbx: Dumping Node END [Cube]
+[2015.10.06-10.45.52:575][515]LogFbx: =================================================
+[2015.10.06-10.45.52:575][515]LogFbx: Dumping Node START [Cube.001] 
+[2015.10.06-10.45.52:575][515]LogFbx: 	Total Deformer Count -712671456.
+[2015.10.06-10.45.52:575][515]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.45.52:575][515]LogFbx: =================================================
+[2015.10.06-10.45.52:575][515]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2015.10.06-10.45.52:575][515]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2015.10.06-10.45.52:575][515]LogFbx: Dumping Node END [Cube.001]
+[2015.10.06-10.45.52:576][515]LogFbx: =================================================
+[2015.10.06-10.45.52:576][515]LogFbx: Dumping Node START [Cube.002] 
+[2015.10.06-10.45.52:576][515]LogFbx: 	Total Deformer Count -712684280.
+[2015.10.06-10.45.52:576][515]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.45.52:576][515]LogFbx: =================================================
+[2015.10.06-10.45.52:576][515]LogFbx: 	Attribute (Mesh) Type (4).
+[2015.10.06-10.45.52:576][515]LogFbx: 		[Node Attribute Child 1] Cube.002 (Type Mesh).
+[2015.10.06-10.45.52:576][515]LogFbx: Dumping Node END [Cube.002]
+[2015.10.06-10.45.52:576][515]LogFbx: =================================================
+[2015.10.06-10.45.52:576][515]LogFbx: Dumping Node START [Cube] 
+[2015.10.06-10.45.52:576][515]LogFbx: 	Total Deformer Count -677515296.
+[2015.10.06-10.45.52:576][515]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.45.52:576][515]LogFbx: =================================================
+[2015.10.06-10.45.52:576][515]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2015.10.06-10.45.52:576][515]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2015.10.06-10.45.52:576][515]LogFbx: Dumping Node END [Cube]
+[2015.10.06-10.45.52:576][515]LogFbx: =================================================
+[2015.10.06-10.45.52:576][515]LogFbx: Dumping Node START [Cube.001] 
+[2015.10.06-10.45.52:576][515]LogFbx: 	Total Deformer Count -712684280.
+[2015.10.06-10.45.52:576][515]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.10.06-10.45.52:576][515]LogFbx: =================================================
+[2015.10.06-10.45.52:576][515]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2015.10.06-10.45.52:576][515]LogFbx: 		[Node Attribute Child 1] Cube.001 (Type Mesh).
+[2015.10.06-10.45.52:576][515]LogFbx: Dumping Node END [Cube.001]
+[2015.10.06-10.45.52:577][515]LogFbx: Valid bind pose for Pose (Mesh) - Cube.002
+[2015.10.06-10.45.52:577][515]LogFbx: Valid bind pose for Pose (Mesh.001) - Cube.002
+[2015.10.06-10.45.52:577][515]LogFbx: Valid bind pose for Pose (Mesh.002) - Cube.002
+[2015.10.06-10.45.52:578][515]LogFbx: Triangulating skeletal mesh Cube.002
+[2015.10.06-10.45.52:920][515]LogFbx: Triangulating skeletal mesh Cube
+[2015.10.06-10.45.53:733][515]LogFbx: Triangulating skeletal mesh Cube.001
+[2015.10.06-10.45.54:636][515]LogFbx:Warning: Bones digested - 30  Depth of hierarchy - 9
+[2015.10.06-10.45.54:770][515]LogSkeletalMesh: Chunk 0: 3293 rigid vertices, 4956 soft vertices, 21 active bones
+[2015.10.06-10.45.54:788][515]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 14592 triangles
+[2015.10.06-10.45.54:800][515]FBXImport:Warning: 경고 경고: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 올바른 버텍스 노멀을 유추할 수 있도록 FBX 익스포트가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2015.10.06-10.45.54:800][515]FBXImport:Warning: 경고 바인드 포즈에서 빠진 본은 다음과 같습니다:
+Tank.002_end  
+Hat.001_end  
+Hat.002_end  
+Hat.003_end  
+Hand.L_end  
+Hand.R_end  
+Body.001_end  
+Tank.003_end  
+Tank.004_end  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2015.10.06-10.45.59:067][594]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2015.10.06-10.45.59:083][594]LogUObjectGlobals:Warning: 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C' 오브젝트를 찾는 데 실패했습니다.
+[2015.10.06-10.46.10:679][900]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.46.11:081][900]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.46.11:087][900]LogMaterial: 0.000029 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.46.17:938][942]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.06-10.46.17:939][942]MaterialEditorStats: 정보 Vertex shader: 31 instructions
+[2015.10.06-10.46.17:939][942]MaterialEditorStats: 정보 Texture samplers: 0/16
+[2015.10.06-10.46.43:412][133]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.46.43:418][133]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.46.43:419][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.06-10.46.43:439][133]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.46.43:439][133]LogMaterial:Warning: Failed to compile Material /Engine/Transient.NewMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.06-10.46.43:439][133]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.06-10.46.43:439][133]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.46.43:463][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.06-10.46.43:489][133]MaterialEditorStats:Error: 오류 [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.10.06-10.46.48:576][219]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.46.48:581][219]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.46.58:349][635]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.06-10.46.58:349][635]MaterialEditorStats: 정보 Vertex shader: 31 instructions
+[2015.10.06-10.46.58:349][635]MaterialEditorStats: 정보 Texture samplers: 0/16
+[2015.10.06-10.46.59:212][671]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.46.59:224][671]LogMaterial: 0.000150 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.46.59:225][671]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterSubUV_0, compiling. 
+[2015.10.06-10.47.03:136][774]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.47.03:142][774]LogMaterial: 0.000028 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.47.03:168][774]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterSubUV_0, compiling. 
+[2015.10.06-10.47.17:046][245]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.47.17:052][245]LogMaterial: 0.000240 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.47.17:053][245]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling. 
+[2015.10.06-10.47.17:059][245]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.47.17:065][245]LogMaterial: 0.000599 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.47.17:120][245]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterSubUV_0, compiling. 
+[2015.10.06-10.47.17:123][245]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling. 
+[2015.10.06-10.47.27:561][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005AD81A4360
+[2015.10.06-10.47.27:561][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005ADC272340
+[2015.10.06-10.47.27:562][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005ADC270A40
+[2015.10.06-10.47.27:562][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005AD81A7C40
+[2015.10.06-10.47.29:032][442]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.10.06-10.47.30:536][470]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.47.30:542][470]LogMaterial: 0.000025 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.47.30:580][470]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterSubUV_0, compiling. 
+[2015.10.06-10.47.32:212][497]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.47.32:218][497]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (0 / 0)
+[2015.10.06-10.47.32:218][497]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.47.40:498][867]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.47.40:504][867]LogMaterial: 0.000028 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.47.40:505][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2015.10.06-10.47.43:459][911]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0086 seconds. Added 1 classes and 2 folders.
+[2015.10.06-10.47.46:172][957]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.47.46:178][957]LogMaterial: 0.000025 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.47.46:204][957]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2015.10.06-10.47.52:278][131]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.06-10.47.52:278][131]MaterialEditorStats: 정보 Vertex shader: 31 instructions
+[2015.10.06-10.47.52:278][131]MaterialEditorStats: 정보 Texture samplers: 0/16
+[2015.10.06-10.47.57:608][363]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.47.57:614][363]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.47.57:642][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2015.10.06-10.48.10:281][675]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.48.10:287][675]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.48.19:042][ 68]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.48.19:048][ 68]LogMaterial: 0.000024 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.48.19:049][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.06-10.48.21:664][128]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.48.21:670][128]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.48.21:694][128]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.06-10.48.29:298][378]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.48.29:304][378]LogMaterial: 0.000027 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.48.29:330][378]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.06-10.48.43:460][630]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.06-10.48.43:460][630]MaterialEditorStats: 정보 Vertex shader: 33 instructions
+[2015.10.06-10.48.43:460][630]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2015.10.06-10.49.03:479][689]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LV/LV_Main' took 0.039
+[2015.10.06-10.49.03:483][689]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/3d_obj/Material] ([1] browsable assets)...
+[2015.10.06-10.49.03:483][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/3d_obj/Material]
+[2015.10.06-10.49.03:494][689]LogSavePackage: Save=5.716510ms
+[2015.10.06-10.49.03:494][689]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Material_Auto4ECC9084941D4A578C24D769F4EAB8020.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/Material_Auto4.uasset'
+[2015.10.06-10.49.03:495][689]LogSavePackage: Total save time: 10.676932ms
+[2015.10.06-10.49.03:495][689]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/Material_Auto4.uasset
+[2015.10.06-10.49.03:497][689]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3d_obj/Main/GameStart] ([1] browsable assets)...
+[2015.10.06-10.49.03:603][689]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/3d_obj/Main/GameStart.GameStart]
+[2015.10.06-10.49.03:603][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/3d_obj/Main/GameStart]
+[2015.10.06-10.49.03:649][689]LogSavePackage: Save=35.497173ms
+[2015.10.06-10.49.03:649][689]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_Auto404306C404B158FAA9D83189AD67AD77F.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/Main/GameStart_Auto4.uasset'
+[2015.10.06-10.49.03:650][689]LogSavePackage: Total save time: 44.259250ms
+[2015.10.06-10.49.03:650][689]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/Main/GameStart_Auto4.uasset
+[2015.10.06-10.49.03:652][689]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3d_obj/Main/NewMaterial] ([1] browsable assets)...
+[2015.10.06-10.49.03:749][689]OBJ SavePackage:     Rendered thumbnail for [Material /Game/3d_obj/Main/NewMaterial.NewMaterial]
+[2015.10.06-10.49.03:749][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/3d_obj/Main/NewMaterial]
+[2015.10.06-10.49.03:789][689]LogSavePackage: Save=32.750622ms
+[2015.10.06-10.49.03:789][689]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/NewMaterial_Auto4BF0903204E1E25B78F9B07A79D8C2E5F.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/Main/NewMaterial_Auto4.uasset'
+[2015.10.06-10.49.03:791][689]LogSavePackage: Total save time: 35.465013ms
+[2015.10.06-10.49.03:791][689]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/Main/NewMaterial_Auto4.uasset
+[2015.10.06-10.49.03:791][689]LogFileHelpers: Auto-saving content packages took 0.312
+[2015.10.06-10.51.06:658][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Material" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Material.uasset" SILENT=true
+[2015.10.06-10.51.06:666][108]LogSavePackage: Save=5.112666ms
+[2015.10.06-10.51.06:666][108]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/Material9C9E5D804B16AD135EA35281776E59AF.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Material.uasset'
+[2015.10.06-10.51.06:670][108]LogSavePackage: Total save time: 10.353629ms
+[2015.10.06-10.51.06:670][108]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Material.uasset
+[2015.10.06-10.51.06:676][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Main/GameStart" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart.uasset" SILENT=true
+[2015.10.06-10.51.06:704][108]LogSavePackage: Save=22.581396ms
+[2015.10.06-10.51.06:704][108]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart6A497BF244C90570EF37F9AD7FB8E710.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart.uasset'
+[2015.10.06-10.51.06:708][108]LogSavePackage: Total save time: 27.769327ms
+[2015.10.06-10.51.06:708][108]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart.uasset
+[2015.10.06-10.51.06:752][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Main/NewMaterial" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/NewMaterial.uasset" SILENT=true
+[2015.10.06-10.51.06:768][108]LogSavePackage: Save=14.288026ms
+[2015.10.06-10.51.06:768][108]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/NewMaterial4E2BB29146DF1EE04DB4BE9A1F41846C.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/NewMaterial.uasset'
+[2015.10.06-10.51.06:770][108]LogSavePackage: Total save time: 16.426630ms
+[2015.10.06-10.51.06:770][108]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/NewMaterial.uasset
+[2015.10.06-10.51.16:546][155]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.16:569][155]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.51.16:611][155]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.16:634][155]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.16:642][155]LogMaterial: 0.000365 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.06-10.51.27:578][341]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2015.10.06-10.51.37:978][514]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.37:978][514]LogEditorTransaction: Undo Texture 편집
+[2015.10.06-10.51.38:026][514]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.38:797][570]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.38:797][570]LogEditorTransaction: Undo 핀 링크 생성
+[2015.10.06-10.51.38:801][570]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.39:355][581]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.39:355][581]LogEditorTransaction: Undo 머티리얼 에디터: 새 표현식
+[2015.10.06-10.51.39:459][581]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.40:115][588]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.40:115][588]LogEditorTransaction: Undo 머티리얼 에디터: 삭제
+[2015.10.06-10.51.40:181][588]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.40:592][593]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.40:592][593]LogEditorTransaction: Undo 노드 이동
+[2015.10.06-10.51.41:022][597]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.41:022][597]LogEditorTransaction: Undo 핀 링크 생성
+[2015.10.06-10.51.41:470][602]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.41:470][602]LogEditorTransaction: Undo 핀 링크 생성
+[2015.10.06-10.51.41:791][605]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.41:791][605]LogEditorTransaction: Undo 노드 이동
+[2015.10.06-10.51.42:115][608]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.42:115][608]LogEditorTransaction: Undo Texture 편집
+[2015.10.06-10.51.42:155][608]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.42:317][610]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.42:317][610]LogEditorTransaction: Undo Texture 편집
+[2015.10.06-10.51.42:357][610]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.42:458][612]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.42:458][612]LogEditorTransaction: Undo 머티리얼 에디터: 새 표현식
+[2015.10.06-10.51.42:563][612]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.42:802][615]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.42:802][615]LogEditorTransaction: Undo 머티리얼 에디터: 삭제
+[2015.10.06-10.51.42:869][615]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.43:169][619]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.43:169][619]LogEditorTransaction: Undo 머티리얼 에디터: 삭제
+[2015.10.06-10.51.43:272][619]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.43:433][622]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.43:433][622]LogEditorTransaction: Undo 노드 이동
+[2015.10.06-10.51.43:662][624]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.43:662][624]LogEditorTransaction: Undo 노드 이동
+[2015.10.06-10.51.43:999][627]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.43:999][627]LogEditorTransaction: Undo 노드 이동
+[2015.10.06-10.51.44:145][629]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.44:145][629]LogEditorTransaction: Undo 머티리얼 에디터: 새 표현식
+[2015.10.06-10.51.44:226][629]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.44:475][632]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.44:475][632]LogEditorTransaction: Undo 핀 링크 생성
+[2015.10.06-10.51.44:529][632]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.44:668][634]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.44:668][634]LogEditorTransaction: Undo 노드 이동
+[2015.10.06-10.51.44:935][637]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.44:935][637]LogEditorTransaction: Undo 노드 이동
+[2015.10.06-10.51.45:238][640]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.45:238][640]LogEditorTransaction: Undo 머티리얼 에디터: 새 표현식
+[2015.10.06-10.51.45:293][640]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.45:495][643]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.45:495][643]LogEditorTransaction: Undo 머티리얼 에디터: 삭제
+[2015.10.06-10.51.45:597][643]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.45:598][643]LogMaterial:Warning: Failed to compile Material /Engine/Transient.NewMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.06-10.51.45:598][643]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.06-10.51.45:724][645]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.45:724][645]LogEditorTransaction: Undo 노드 이동
+[2015.10.06-10.51.46:034][648]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.46:034][648]LogEditorTransaction: Undo 머티리얼 에디터: 새 표현식
+[2015.10.06-10.51.46:100][648]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-10.51.46:246][650]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.46:246][650]LogEditorTransaction: Undo Import Uniform Scale 편집
+[2015.10.06-10.51.46:406][651]Cmd: TRANSACTION UNDO
+[2015.10.06-10.51.46:406][651]LogEditorTransaction: Undo 메시상의 머티리얼을 대체합니다.
+[2015.10.06-10.51.49:230][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005AD45BC9A0
+[2015.10.06-10.51.50:874][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Main/GameStart" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart.uasset" SILENT=true
+[2015.10.06-10.51.50:912][686]LogSavePackage: Save=34.536495ms
+[2015.10.06-10.51.50:913][686]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart8E24B23248D7D35FAD717FA855EC6174.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart.uasset'
+[2015.10.06-10.51.50:916][686]LogSavePackage: Total save time: 39.262563ms
+[2015.10.06-10.51.50:916][686]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart.uasset
+[2015.10.06-10.51.56:405][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Main/NewMaterial" FILE="../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/NewMaterial.uasset" SILENT=true
+[2015.10.06-10.51.56:429][686]LogSavePackage: Save=16.499842ms
+[2015.10.06-10.51.56:429][686]LogSavePackage: Moving '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Saved/NewMaterialEA2A887F43AC20794B8A62ACDC328503.tmp' to '../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/NewMaterial.uasset'
+[2015.10.06-10.51.56:432][686]LogSavePackage: Total save time: 25.467534ms
+[2015.10.06-10.51.56:432][686]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/귤/Documents/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/NewMaterial.uasset
+[2015.10.06-10.51.56:642][686]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2015.10.06-10.51.57:185][687]Cmd: QUIT_EDITOR
+[2015.10.06-10.51.58:902][687]LogExit: Preparing to exit.
+[2015.10.06-10.51.59:733][687]LogExit: Editor shut down
+[2015.10.06-10.51.59:747][687]LogExit: Transaction tracking system shut down
+[2015.10.06-10.51.59:762][687]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005ACDF2EDE0
+[2015.10.06-10.51.59:763][687]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005AB8ED8EA0
+[2015.10.06-10.51.59:763][687]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005AD5EDAAC0
+[2015.10.06-10.51.59:764][687]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005ABE9A4B80
+[2015.10.06-10.51.59:777][687]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005AC8E276A0
+[2015.10.06-10.51.59:777][687]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005ADC273F60
+[2015.10.06-10.51.59:777][687]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005ACDF8F9C0
+[2015.10.06-10.52.01:094][687]LogExit: Object subsystem successfully closed.
+[2015.10.06-10.52.01:379][687]LogD3D11RHI: Shutdown
+[2015.10.06-10.52.01:379][687]LogD3D11RHI: CleanupD3DDevice
+[2015.10.06-10.52.01:550][687]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.06-10.52.03:280][687]LogModuleManager: Shutting down and abandoning module TextureEditor (199)
+[2015.10.06-10.52.03:287][687]LogModuleManager: Shutting down and abandoning module MaterialEditor (198)
+[2015.10.06-10.52.03:287][687]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.10.06-10.52.03:303][687]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.10.06-10.52.03:303][687]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.10.06-10.52.03:303][687]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.10.06-10.52.03:321][687]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.10.06-10.52.03:392][687]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.10.06-10.52.03:392][687]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.10.06-10.52.03:401][687]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.10.06-10.52.03:420][687]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.06-10.52.03:440][687]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.06-10.52.03:497][687]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.06-10.52.03:497][687]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.06-10.52.03:522][687]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.06-10.52.03:522][687]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.06-10.52.03:523][687]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.06-10.52.03:523][687]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.06-10.52.03:545][687]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.06-10.52.03:545][687]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.06-10.52.03:563][687]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.06-10.52.03:563][687]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.06-10.52.03:605][687]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.06-10.52.03:636][687]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.06-10.52.03:643][687]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.06-10.52.03:643][687]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.06-10.52.03:643][687]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.06-10.52.03:643][687]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.06-10.52.03:671][687]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.06-10.52.03:671][687]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.06-10.52.03:671][687]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.06-10.52.03:671][687]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.06-10.52.03:671][687]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.06-10.52.03:680][687]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.06-10.52.03:696][687]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.06-10.52.03:696][687]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.06-10.52.03:696][687]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.06-10.52.03:713][687]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.06-10.52.03:713][687]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.06-10.52.03:713][687]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.06-10.52.03:729][687]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.06-10.52.03:729][687]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.06-10.52.03:729][687]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.06-10.52.03:729][687]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.06-10.52.03:729][687]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.06-10.52.03:746][687]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.06-10.52.03:762][687]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.06-10.52.03:821][687]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.06-10.52.03:821][687]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.06-10.52.03:839][687]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.06-10.52.03:855][687]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.06-10.52.03:872][687]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.06-10.52.03:872][687]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.06-10.52.03:872][687]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.06-10.52.03:875][687]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.06-10.52.03:898][687]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.06-10.52.03:898][687]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.06-10.52.03:899][687]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.06-10.52.03:899][687]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.06-10.52.03:899][687]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.06-10.52.03:899][687]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.06-10.52.03:899][687]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.06-10.52.03:899][687]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.06-10.52.03:899][687]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.06-10.52.03:928][687]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.06-10.52.03:928][687]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.06-10.52.03:928][687]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.06-10.52.03:943][687]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.06-10.52.03:943][687]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.06-10.52.03:944][687]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.06-10.52.03:944][687]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.06-10.52.03:944][687]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.06-10.52.03:944][687]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.06-10.52.03:944][687]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.06-10.52.03:944][687]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.06-10.52.03:944][687]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.06-10.52.03:944][687]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.06-10.52.03:944][687]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.06-10.52.04:066][687]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.06-10.52.04:082][687]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.06-10.52.04:092][687]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.06-10.52.04:092][687]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.06-10.52.04:092][687]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.06-10.52.04:092][687]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.06-10.52.04:092][687]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.06-10.52.04:092][687]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.06-10.52.04:184][687]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.06-10.52.04:184][687]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.06-10.52.04:184][687]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.06-10.52.04:184][687]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.06-10.52.04:199][687]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.06-10.52.04:212][687]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.06-10.52.04:212][687]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.06-10.52.04:227][687]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.06-10.52.04:249][687]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.06-10.52.04:257][687]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.06-10.52.04:273][687]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.06-10.52.04:295][687]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.06-10.52.04:295][687]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.06-10.52.04:316][687]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.06-10.52.04:321][687]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.06-10.52.04:337][687]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.06-10.52.04:354][687]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.06-10.52.04:354][687]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.06-10.52.04:392][687]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.06-10.52.04:392][687]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.06-10.52.04:392][687]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.06-10.52.04:392][687]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.06-10.52.04:414][687]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.06-10.52.04:415][687]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.06-10.52.04:425][687]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.06-10.52.04:434][687]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.06-10.52.04:563][687]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.06-10.52.04:563][687]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.06-10.52.04:596][687]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.06-10.52.04:696][687]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.06-10.52.04:696][687]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.06-10.52.04:696][687]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.06-10.52.04:697][687]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.06-10.52.04:712][687]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.06-10.52.04:713][687]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.06-10.52.04:713][687]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.06-10.52.04:713][687]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.06-10.52.04:713][687]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.06-10.52.04:748][687]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.06-10.52.04:762][687]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.06-10.52.04:770][687]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.06-10.52.04:804][687]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.06-10.52.04:804][687]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.06-10.52.04:804][687]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.06-10.52.04:827][687]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.06-10.52.04:889][687]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.06-10.52.04:889][687]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.06-10.52.04:889][687]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.06-10.52.04:923][687]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.06-10.52.04:923][687]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.06-10.52.04:923][687]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.06-10.52.04:923][687]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.06-10.52.04:923][687]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.06-10.52.04:923][687]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.06-10.52.04:923][687]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.06-10.52.04:929][687]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.06-10.52.04:929][687]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.06-10.52.04:929][687]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.06-10.52.04:931][687]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.06-10.52.04:944][687]LogDerivedDataCache: Shutdown
+[2015.10.06-10.52.04:944][687]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.06-10.52.04:951][687]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.06-10.52.04:951][687]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.06-10.52.04:951][687]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.06-10.52.04:961][687]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.06-10.52.04:961][687]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.06-10.52.04:961][687]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.06-10.52.04:961][687]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.06-10.52.04:961][687]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.06-10.52.04:961][687]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.06-10.52.04:969][687]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.06-10.52.04:969][687]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.06-10.52.04:977][687]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.06-10.52.04:977][687]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.06-10.52.04:989][687]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.06-10.52.04:989][687]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.06-10.52.04:989][687]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.06-10.52.04:989][687]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.06-10.52.04:989][687]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.06-10.52.04:989][687]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.06-10.52.04:999][687]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.06-10.52.05:011][687]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.06-10.52.05:027][687]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.06-10.52.05:045][687]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.06-10.52.05:045][687]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.06-10.52.05:045][687]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.06-10.52.05:045][687]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.06-10.52.05:045][687]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.06-10.52.05:045][687]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.06-10.52.05:059][687]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.06-10.52.05:078][687]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.06-10.52.05:078][687]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.06-10.52.05:078][687]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.06-10.52.05:078][687]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.06-10.52.05:078][687]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.06-10.52.05:079][687]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.06-10.52.07:167][687]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.06-10.52.07:240][687]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.06-10.52.07:240][687]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.06-10.52.07:240][687]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.06-10.52.07:240][687]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.06-10.52.07:240][687]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.06-10.52.07:317][687]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.06-10.52.07:348][687]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.06-10.52.07:348][687]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.06-10.52.07:348][687]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.06-10.52.07:348][687]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.06-10.52.07:348][687]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.06-10.52.07:348][687]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.06-10.52.07:348][687]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.06-10.52.07:382][687]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.06-10.52.07:382][687]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.06-10.52.07:559][687]LogExit: Exiting.
+[2015.10.06-10.52.07:593][687]Log file closed, 10/06/15 19:52:07
